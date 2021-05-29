@@ -5,7 +5,10 @@ int main(void)
     int portao = 0;
     int cruzamento1 = 0;
     printf("Bem vindo a masmorra\n");
-    printf("TODO\n");
+    printf("Es um guerreiro ferido. Apos uma batalha sangrenta contra o exercito inimigo, verificas que os teus amigos tombaram todos e so faltas tu\n");
+    printf("nao tens mais hipotese nesta batalha, entao decides fugir e salvar a tua vida.\n");
+    printf("Depois de uma longa caminhada, encontras o que parece ser uma masmorra abandonada\n");
+    printf("como estas cansado e ferido, decides explorar\n");
     printf("A sua frente esta um portao Ferrugento\n");
     printf("pretende abri-lo?\n");
     printf("Prima 1 para sim e 2 para nao\n");
@@ -21,7 +24,7 @@ int main(void)
         }
     else
         {
-           printf("o portao nao abriu e voce morreu\n");
+           printf("Decidiste nao abrir o portao e morreste de exaustao. Os batedores inimigos apanharam-te\n");
         }
 
     return 0;
