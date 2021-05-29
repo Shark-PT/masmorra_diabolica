@@ -4,6 +4,7 @@ int main(void)
 {
     int portao = 0;
     int cruzamento1 = 0;
+    int intersecao1 = 0;
     printf("Bem vindo a masmorra\n");
     printf("Es um guerreiro ferido. Apos uma batalha sangrenta contra o exercito inimigo, verificas que os teus amigos tombaram todos e so faltas tu\n");
     printf("nao tens mais hipotese nesta batalha, entao decides fugir e salvar a tua vida.\n");
@@ -21,6 +22,12 @@ int main(void)
         printf("para que lado quer ir?\n");
         printf("prima 1 para ir para a esquerda, 2 para ir em frente e 3 para ir para a direita\n");
         scanf("%d",&cruzamento1);
+        }
+        if (cruzamento1 == 1)
+        {
+            printf("avancaste e encontraste um caminho a tua esquerda\n");
+            print("Se quiseres seguir em frente prima 1, para virar a esquerda prima 2\n");
+            scanf("%d",&intersecao1);
         }
     else
         {
