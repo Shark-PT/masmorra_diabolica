@@ -5,6 +5,7 @@ int main(void)
     int portao = 0;
     int cruzamento1, cruzamento2 = 0;
     int intersecao1, intersecao2, intersecao3 = 0;
+    int bifurcacao1, bifurcacao2 = 1;
 
         printf("Bem vindo a masmorra\n");
         printf("Es um guerreiro ferido. Apos uma batalha sangrenta contra o exercito inimigo, verificas que os teus amigos tombaram todos e so faltas tu\n");
@@ -63,10 +64,21 @@ int main(void)
                     scanf("%d",intersecao3);
                     }
             if (intersecao3 == 2)
-            {
-                printf("fazes uma longa caminhada e o ambiente esta claustrofobico\n")
-            }
-
+                {
+                printf("fazes uma longa caminhada e o ambiente esta claustrofobico\n");
+                printf("Apesar de tudo, continuas e ves que o caminho curva para a direita.\n");
+                printf("no fim do corredor, tens uma bifurcacao\n");
+                printf("Queres ir para a direita, prime 1, para a esquerda prime 2\n");
+                scanf("%d",&bifurcacao1);
+                }
+            if (intersecao3 == 1)
+                {
+                printf("Seguiste em frente, com pouca luz, até que bateste numa parede\n");
+                printf("desorientado, reparas que o caminho segue pela esquerda\n");
+                printf("continuas o caminho até chegares a mais uma bifurcacao\n");
+                printf("Queres seguirt em frente, prime 1, queres virar a esquerda, prime 2\n");
+                scanf("%d",&bifurcacao2);
+                }
         }
     if(portao == 2)
         {
