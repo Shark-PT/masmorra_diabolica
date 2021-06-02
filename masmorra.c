@@ -42,7 +42,7 @@ int main(void)
 
             if (cruzamento2 == 2)
                 {
-                printf("O ambiente está humido e bolorento, tens dificuldade em respirar\n");
+                printf("O ambiente esta humido e bolorento, tens dificuldade em respirar\n");
                 printf("Mas nao desistes e continuas ate encontrares uma intersecao a tua esquerda.\n");
                 printf("Se quiseres virar prime 1, para continuar em frente, prime 2\n");
                 scanf("%d",&intersecao2);
@@ -54,7 +54,7 @@ int main(void)
                     printf("GAME OVER\n");
                     }
 
-          /*    if (cruzamento2 == 1)
+              if (intersecao2 == 1)
                     {
                     printf("segues pelo caminha a tua esquerda e reparas que ele esta virar a direita.\n");
                     printf("reparas que o caminho est a descer e presentes que estas abaixo do nivel do chao\n");
@@ -62,7 +62,10 @@ int main(void)
                     printf("Queres seguir em frente, prime 1, queres virar a direita, prime 2\n");
                     scanf("%d",intersecao3);
                     }
-*/
+            if (intersecao3 == 2)
+            {
+                printf("fazes uma longa caminhada e o ambiente esta claustrofobico\n")
+            }
 
         }
     if(portao == 2)
