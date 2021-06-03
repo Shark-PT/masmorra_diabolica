@@ -10,6 +10,7 @@ Um jogo RPG de texto
  
  Versão 0.01
     Esboço do labirinto e apresentação da personagem. 
+    
     02/Jun
     Apresentação da personagem
     30% labirinto feito
