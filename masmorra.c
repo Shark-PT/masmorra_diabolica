@@ -5,7 +5,7 @@ int main(void)
     int portao = 0;
     int cruzamento1, cruzamento2 = 0;
     int intersecao1, intersecao2, intersecao3 = 0;
-    int bifurcacao1, bifurcacao2 = 1;
+    int bifurcacao1, bifurcacao2, bifurcacao3 = 1;
 
         printf("Bem vindo a masmorra\n");
         printf("Es um guerreiro ferido. Apos uma batalha sangrenta contra o exercito inimigo, verificas que os teus amigos tombaram todos e so faltas tu\n");
@@ -73,16 +73,35 @@ int main(void)
                 }
             if (intersecao3 == 1)
                 {
-                printf("Seguiste em frente, com pouca luz, até que bateste numa parede\n");
+                printf("Seguiste em frente, com pouca luz, ate que bateste numa parede\n");
                 printf("desorientado, reparas que o caminho segue pela esquerda\n");
-                printf("continuas o caminho até chegares a mais uma bifurcacao\n");
-                printf("Queres seguirt em frente, prime 1, queres virar a esquerda, prime 2\n");
+                printf("continuas o caminho ate chegares a mais uma bifurcacao\n");
+                printf("Queres seguir em frente, prime 1, queres virar a esquerda, prime 2\n");
                 scanf("%d",&bifurcacao2);
                 }
+            if (bifurcacao1 == 1)
+                {
+                    printf("caiste num poco enorme. Os teus dias chegaram ao fim \n");
+                    printf("GAME OVER\n");
+                }
+                if (bifurcacao1 == 2)
+                {
+                    printf("Caminhas, caminhas e caminhas atÃ© chegar a mais uma bifurcacao\n");
+                    printf("Rogas pragas ao criador deste labirinto diabolico\n");
+                    printf("Mas entretanto tens que decidir, direita, prime 1, esquerda, prime 2");
+                    scanf("%d",&bifurcacao3);    
+                }
+                if (bifurcacao3 == 1)
+                {
+                    printf("Andas durante muito tempo, com curvas consecutivas para o mesmo lado\n");
+                    printf("AtÃ© que te apercebes que andaste as voltas e foste parar ao mesmo sitio.\n")
+                }
         }
+
     if(portao == 2)
         {
            printf("Decidiste nao abrir o portao e morreste de exaustao. Os batedores inimigos apanharam-te\n");
+           printf("GAME OVER");
         }
 
     return 0;
