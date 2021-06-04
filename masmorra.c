@@ -94,11 +94,7 @@ int main(void)
                 if (bifurcacao3 == 1)
                 {
                     printf("Andas durante muito tempo, com curvas consecutivas para o mesmo lado\n");
-<<<<<<< HEAD
                     printf("Ate que te apercebes que andaste as voltas e foste parar ao mesmo sitio.\n")
-=======
-                    printf("Atéee que te apercebes que andaste as voltas e foste parar ao mesmo sitio.\n")
->>>>>>> aac96d08f5650030d366218d4f549d03a4bf76ae
                 }
         }
 
