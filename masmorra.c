@@ -94,7 +94,7 @@ int main(void)
                 if (bifurcacao3 == 1)
                 {
                     printf("Andas durante muito tempo, com curvas consecutivas para o mesmo lado\n");
-                    printf("Até que te apercebes que andaste as voltas e foste parar ao mesmo sitio.\n")
+                    printf("Atéee que te apercebes que andaste as voltas e foste parar ao mesmo sitio.\n")
                 }
         }
 
