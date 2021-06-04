@@ -106,8 +106,5 @@ int main(void)
 
     return 0;
 
-/* teste GIT
-teste git
-teste github
-*/
+
 }
