@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* teste */
 int main(void)
 {
     int portao = 0;
