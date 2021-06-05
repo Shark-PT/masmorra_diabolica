@@ -95,6 +95,13 @@ int main(void)
                 {
                     printf("Andas durante muito tempo, com curvas consecutivas para o mesmo lado\n");
                     printf("Ate que te apercebes que andaste as voltas e foste parar ao mesmo sitio.\n");
+                    printf("Voltas atrás e segues o mesmo caminho claustrofobico até chegar a mais uma bifurcacao\n");
+                    printf("Segues em frente, prime 1, viras a direita, prime 3\n");
+                    scanf("%d", &bifurcacao1);
+                }
+                if (bifurcacao1 == 3)
+                {
+                    printf("continuas a seguir o mesmo caminho que fizeste antes e pensas qual sera o objectivo destes tuneis\n")
                 }
         }
 
