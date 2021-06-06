@@ -2,7 +2,8 @@
 Um jogo RPG de texto
 
 
- Um Jogo RPG de texto baseado na coleção de livros "Fighting Fantasy" de Ian Livingstone.\n
+ Um Jogo RPG de texto baseado na coleção de livros "Fighting Fantasy" de Ian Livingstone.
+ 
  A primeira versão funcional será só com o labirinto, sem monstros, nem dados. 
  Irei acrescentar os mesmos futuramente. 
 
