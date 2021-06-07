@@ -5,7 +5,7 @@ int main(void)
     int portao = 0;
     int cruzamento1, cruzamento2 = 0;
     int intersecao1, intersecao2, intersecao3 = 0;
-    int bifurcacao1, bifurcacao2, bifurcacao3 = 1;
+    int bifurcacao1, bifurcacao2, bifurcacao3 = 0;
 
         printf("Bem vindo a masmorra\n");
         printf("Es um guerreiro ferido. Apos uma batalha sangrenta contra o exercito inimigo, verificas que os teus amigos tombaram todos e so faltas tu\n");
