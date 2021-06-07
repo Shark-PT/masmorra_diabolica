@@ -101,7 +101,7 @@ int main(void)
                 }
                 if (bifurcacao1 == 3)
                 {
-                    printf("continuas a seguir o mesmo caminho que fizeste antes e pensas qual sera o objectivo destes tuneis\n")
+                    printf("continuas a seguir o mesmo caminho que fizeste antes e pensas qual sera o objectivo destes tuneis\n");
                 }
         }
 
