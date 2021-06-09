@@ -12,7 +12,7 @@ void reset();
 int main(void)
 {
     int portao = 0;
-    int cruzamento1, cruzamento2 = 0;
+    int cruzamento1, cruzamento2, cruzamento3 = 0;
     int intersecao1, intersecao2, intersecao3 = 0;
     int bifurcacao1, bifurcacao2, bifurcacao3, bifurcacao4 = 0;
 
@@ -35,6 +35,22 @@ int main(void)
         printf("prime 1 para ir para a esquerda, 2 para ir em frente e 3 para ir para a direita\n");
         scanf("%d",&cruzamento1);
         }
+        if (cruzamento2 == 2) // completar narrativa
+        {
+            printf("FRENTE\n");
+            printf("TODO\n");
+            blue();
+            printf("cruzamento, frente 1, direita 2\n");
+            reset();
+            scanf("%d",&cruzamento3);
+        }
+        if (cruzamento3 == 1) // completar narrativa
+            printf("Seguiste em frente\n");
+            printf("encontraste uma bifurcacao\n");
+            blue();
+            printf("esquerda, 1, direita 2\n");
+            reset();
+            scanf()
         if (cruzamento1 == 1)
         {
             printf("avancaste e encontraste um caminho a tua esquerda\n");
@@ -47,18 +63,16 @@ int main(void)
                 printf("Seguiste em frente no tunel, e no fim do mesmo viraste a direita\n");
                 printf("Apos uma longa caminhada, verificas que existe mais um cruzamento\n");
                 blue();
-                printf("queres virar para a esquerda, prime 1, queres ir em frente, prime 2\n");
+                printf("queres virar para a esquerda, prime 3, queres ir em frente, prime 2\n");
                 reset();
                 scanf("%d",&cruzamento2);
                 }
-            if (intersecao1 ==  2)
+            if (intersecao1 ==  2) // completar narrativa
             {
                 yellow();
                 printf("CAMINHO SEM SAIDA TODO");
                 reset();
             }
-
-
             if (cruzamento2 == 2)
                 {
                 printf("O ambiente esta humido e bolorento, tens dificuldade em respirar\n");
@@ -103,8 +117,9 @@ int main(void)
                     if (bifurcacao4 == 2)
                         printf("Segues o caminho e sentes que estas a subir\n");
                         printf("Encontras novo cruzamento\n");
-
-
+                        blue();
+                        printf("queres seguir em frente, prime 1, queres virar a direita, prime 2\n");
+                        reset();
 
             if (intersecao3 == 2)
                 {
@@ -170,7 +185,7 @@ int main(void)
 
 
 }
-
+// funcoes de cores
 void red()
     {
         printf("\033[1;31m");
