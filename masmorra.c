@@ -97,7 +97,6 @@ int main(void)
                 scanf("%d",&intersecao2);
                 }
                 if (intersecao2 == 1)
-                    {
                     printf("segues pelo caminha a tua esquerda e reparas que ele esta virar a direita.\n");
                     printf("reparas que o caminho esta a descer e pressentes que estas abaixo do nivel do chao\n");
                     printf("com a luz tenue da tua tocha, ves que o caminho bifurca para a esquerda e em frente\n");
@@ -105,7 +104,7 @@ int main(void)
                     printf("Queres seguir em frente, prime 1, queres virar a esquerda, prime 2\n");
                     reset();
                     scanf("%d",caminho1);
-                    }
+                    
                     if (caminho1 == 2)
                     {
                         printf("fazes uma longa caminhada e o ambiente esta claustrofobico\n");
