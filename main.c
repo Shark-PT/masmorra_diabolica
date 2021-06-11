@@ -1,20 +1,19 @@
-#include <stdio.h>
 #include <stdbool.h>
+#include <stdio.h>
 #include "parsexec.h"
 
-static char input[100] = "look around"; //buffer para recolher inputs do teclado
+static char input[100] = "look around";
 
 static bool getInput(void)
 {
-    printf("\n--> "); //pode ser mudado o texto para o que quisermos
-    return fgets(input, sizeof input, stdin) !=NULL;
+   printf("\n--> ");
+   return fgets(input, sizeof input, stdin) != NULL;
 }
 
 int main()
 {
-    printf("Welcome to Little Cabe Adventure.\n");
-    while (parseAndExecute(input) && getInput());
-    printf("It is very dark in here.\n");
-    printf("\nBye\n");
-    return 0;
+   printf("Welcome to Little Cave Adventure.\n");
+   while (parseAndExecute(input) && getInput());
+   printf("\nBye!\n");
+   return 0;
 }
